@@ -1,0 +1,56 @@
+/*  */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+a {
+  cursor: pointer;
+}
+.black-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #282c34;
+  color: #fff;
+}
+.black-nav > h1 {
+  padding: 5px 20px;
+}
+.black-nav > div {
+  font-size: 0.75em;
+  padding: 5px 20px;
+}
+.list li {
+  border-bottom: 1px solid gray;
+  padding: 15px;
+  margin: 0;
+}
+.list h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.list div {
+  font-size: 11px;
+}
+.like {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+.modal {
+  background-color: aquamarine;
+  margin: 20px;
+  padding: 20px;
+}
+.modal h2 {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.modal div {
+  font-size: 11px;
+}
